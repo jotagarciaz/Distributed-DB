@@ -16,3 +16,10 @@ ADD A B 6 (means A=B+6)
 
 * client.js: is the program which will be read the operations file and push it to the middleware (server.js)
 
+This code was develop in node.js so to execute it:
+
+1- Edit server.js and change the IPs, and the ports, for yours IPs and ports.
+2- Open DB and configure with the initial values of the Variables, you can also delete it, and a new one will be created, when it is needed.
+3- Open a terminal and execute node server.js
+4- Edit operations for your prefered ones.
+5- execute client.
