@@ -1,3 +1,8 @@
+Based on | Version:
+------------ | -------------
+Node.JS| 8.11.1
+
+
 # Distributed Database
 
 This is a project we have created for the Distributed Systems course in Mälardalen University Västerås and Eskilstuna, Sweden. It consists of three nodes, consisting each of a client, a middleware and a database. The client sends a transaction to the middleware, which handles it and sends it to all three databases, so that they are always consistent. 
